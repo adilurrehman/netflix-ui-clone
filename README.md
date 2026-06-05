@@ -10,13 +10,14 @@ A static front-end clone of the [Netflix](https://www.netflix.com) landing page,
 
 ## Live Demo
 
-Once GitHub Pages is enabled, the site will be available at:
+🌐 **Live Site:** [https://adilurrehman.github.io/netflix-ui-clone/](https://adilurrehman.github.io/netflix-ui-clone/)
 
-```
-https://adilurrehman.github.io/netflix-ui-clone/
-```
+| | |
+|:--|:--|
+| **Direct link** | [Open Netflix UI Clone](https://adilurrehman.github.io/netflix-ui-clone/) |
+| **Repo shortcut** | Use the **Website** link in the repository sidebar (About section) |
 
-Or open `index.html` directly in your browser for local preview.
+> **Note:** If you click the link from this README, GitHub may show a brief *"You are leaving GitHub.com"* redirect page — this is normal. Click **Continue** to open the live site. Browsers may also warn on Netflix-style clones; the live page includes an educational disclaimer banner.
 
 ---
 
@@ -37,7 +38,6 @@ Or open `index.html` directly in your browser for local preview.
 |---|---|
 | HTML5 | Page structure and semantic layout |
 | CSS3 | Styling, flexbox, grid, and responsive design |
-| Font Awesome (CDN) | Icon support |
 | GitHub Pages | Static hosting |
 
 No JavaScript, npm, or bundler is required.
@@ -102,9 +102,9 @@ npx serve .
 
 1. Push this repository to [adilurrehman/netflix-ui-clone](https://github.com/adilurrehman/netflix-ui-clone).
 2. Go to **Settings → Pages**.
-3. Set **Source** to `Deploy from a branch`.
-4. Select the `main` branch and `/ (root)` folder.
-5. Save — your site will be live at `https://adilurrehman.github.io/netflix-ui-clone/`.
+3. Set **Source** to **GitHub Actions**.
+4. Push to `main` — the included workflow deploys the site automatically.
+5. Your site will be live at **[adilurrehman.github.io/netflix-ui-clone](https://adilurrehman.github.io/netflix-ui-clone/)**.
 
 ---
 
