@@ -1,6 +1,6 @@
 # Netflix UI Clone
 
-A static front-end clone of the [Netflix](https://www.netflix.com) landing page, styled for the Pakistan region. This project is built with **HTML and CSS only** — no JavaScript frameworks, no backend, and no build step.
+A static front-end clone of the [Netflix](https://www.netflix.com) landing page, styled for the region. This project is built with **HTML and CSS only** — no JavaScript frameworks, no backend, and no build step.
 
 **Repository:** [github.com/adilurrehman/netflix-ui-clone](https://github.com/adilurrehman/netflix-ui-clone)
 
