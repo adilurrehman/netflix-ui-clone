@@ -7,7 +7,87 @@
 
 body {
     background-color: black;
-    padding-top: 36px;
+    padding-top: 40px;
+}
+
+.demo-ack-input {
+    display: none;
+}
+
+.demo-ack-input:checked ~ .demo-gate {
+    display: none;
+}
+
+.demo-gate {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.92);
+}
+
+.demo-gate-card {
+    max-width: 520px;
+    padding: 32px 28px;
+    border-radius: 8px;
+    text-align: center;
+    background: #181818;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.demo-gate-badge {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    background-color: #f5c518;
+}
+
+.demo-gate-card h1 {
+    margin-bottom: 16px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.demo-gate-card p {
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #d6d6d6;
+}
+
+.demo-gate-author {
+    margin-bottom: 24px !important;
+    font-size: 14px !important;
+}
+
+.demo-gate-author a {
+    color: #f5c518;
+    text-decoration: underline;
+}
+
+.demo-gate-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+}
+
+.demo-gate-btn:hover {
+    background-color: #f40612;
 }
 
 .demo-banner {
@@ -16,12 +96,38 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 8px 16px;
+    padding: 10px 16px;
     text-align: center;
     font-size: 13px;
     font-weight: 600;
     color: #1a1a1a;
     background-color: #f5c518;
+}
+
+.demo-banner a {
+    margin-left: 8px;
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+.demo-form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.demo-form-note {
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #f5c518;
+}
+
+.emailcont input:disabled,
+.emailcont button:disabled,
+.navbtns button:disabled {
+    opacity: 0.85;
+    cursor: not-allowed;
 }
 
 .bg {

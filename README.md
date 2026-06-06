@@ -17,7 +17,20 @@ A static front-end clone of the [Netflix](https://www.netflix.com) landing page,
 | **Direct link** | [Open Netflix UI Clone](https://adilurrehman.github.io/netflix-ui-clone/) |
 | **Repo shortcut** | Use the **Website** link in the repository sidebar (About section) |
 
-> **Note:** If you click the link from this README, GitHub may show a brief *"You are leaving GitHub.com"* redirect page — this is normal. Click **Continue** to open the live site. Browsers may also warn on Netflix-style clones; the live page includes an educational disclaimer banner.
+> **Note:** If you click the link from this README, GitHub may show a brief *"You are leaving GitHub.com"* redirect page — this is normal. Click **Continue** to open the live site.
+
+### Chrome "Dangerous site" warning?
+
+Google Safe Browsing may flag Netflix-style clones as phishing because they mimic a real brand on a non-Netflix domain. This project is an **educational demo only** — it does not collect credentials or payment data.
+
+**To request removal of the warning:**
+
+1. On the Chrome warning page, click **"Let us know if you think there's been a mistake"**
+2. Or report it here: [Google Safe Browsing — Report an error](https://safebrowsing.google.com/safebrowsing/report_error/)
+3. Enter the URL: `https://adilurrehman.github.io/netflix-ui-clone/`
+4. Select **"This page is safe"** and explain it is a student/portfolio HTML/CSS UI clone with no data collection
+
+Review can take a few days. The live site includes a demo gate, disclaimer banner, and disabled forms to make its educational purpose clear.
 
 ---
 

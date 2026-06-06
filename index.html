@@ -15,34 +15,61 @@
     <meta property="og:url" content="https://adilurrehman.github.io/netflix-ui-clone/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://github.com/adilurrehman/netflix-ui-clone">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <p class="demo-banner" role="note">Educational UI clone — not affiliated with Netflix, Inc.</p>
+    <input type="checkbox" id="demo-ack" class="demo-ack-input" aria-hidden="true">
+
+    <div class="demo-gate" role="dialog" aria-labelledby="demo-gate-title" aria-describedby="demo-gate-desc">
+        <div class="demo-gate-card">
+            <p class="demo-gate-badge">Portfolio Project</p>
+            <h1 id="demo-gate-title">Netflix UI Clone</h1>
+            <p id="demo-gate-desc">
+                This is an <strong>educational front-end demo</strong> built with HTML and CSS.
+                It is <strong>not</strong> the official Netflix website, does not collect passwords or payment
+                details, and is not affiliated with Netflix, Inc.
+            </p>
+            <p class="demo-gate-author">
+                Built by
+                <a href="https://github.com/adilurrehman" rel="noopener noreferrer">Adil Ur Rehman</a>
+                ·
+                <a href="https://github.com/adilurrehman/netflix-ui-clone" rel="noopener noreferrer">View source on GitHub</a>
+            </p>
+            <label for="demo-ack" class="demo-gate-btn">View Demo</label>
+        </div>
+    </div>
+
+    <p class="demo-banner" role="note">
+        Educational UI clone — not affiliated with Netflix, Inc.
+        <a href="https://github.com/adilurrehman/netflix-ui-clone" rel="noopener noreferrer">Source code</a>
+    </p>
     <div class="bg">
         <div class="filter"></div>
         <nav>
-            <div class="navlogo"><img src="./assets/images/netflix-logo.svg" alt="Netflix Logo"></div>
+            <div class="navlogo"><img src="./assets/images/netflix-logo.svg"
+                    alt="Netflix UI clone demo logo — not the official Netflix site"></div>
             <div class="navbtns">
                 <button><img src="./assets/images/lang-icon.png" alt="">English <p><svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24" color="white" fill="white">
                             <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
                                 stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg></p></button>
-                <button>Sign In</button>
+                <button type="button" disabled aria-disabled="true" title="Demo only — not functional">Sign In (Demo)</button>
             </div>
         </nav>
         <main>
             <span>Enjoy big movies, hit series and more from ₹ 149.</span>
             <span>Join today. Cancel anytime.</span>
             <span>Ready to watch? Enter your email to create or restart your membership.</span>
-            <div class="emailcont">
-                <input type="email" placeholder="Email Address">
-                <button><a href="#">GetStarted</a>
-                    <p>&#9013</p>
-                </button>
+            <div class="emailcont demo-form">
+                <p class="demo-form-note">Demo UI only — this form does not collect or submit data</p>
+                <input type="text" placeholder="Demo only — not functional" disabled readonly tabindex="-1"
+                    autocomplete="off" aria-label="Demo email field — not functional">
+                <button type="button" disabled aria-disabled="true" title="Demo only — not functional">Get Started
+                    (Demo)<p>&#9013</p></button>
             </div>
         </main>
     </div>
@@ -124,9 +151,12 @@
         </div>
         <div class="emailcont2">
             <span>Ready to watch? Enter your email to create or restart your membership.</span>
-            <div class="emailcont">
-                <input type="text" placeholder="Email Address">
-                <button>Get Started<p>&#9013</p></button>
+            <div class="emailcont demo-form">
+                <p class="demo-form-note">Demo UI only — this form does not collect or submit data</p>
+                <input type="text" placeholder="Demo only — not functional" disabled readonly tabindex="-1"
+                    autocomplete="off" aria-label="Demo email field — not functional">
+                <button type="button" disabled aria-disabled="true" title="Demo only — not functional">Get Started
+                    (Demo)<p>&#9013</p></button>
             </div>
         </div>
     </section>
@@ -167,7 +197,7 @@
                         <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
                             stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg></p></button>
-            <p>Netflix Pakistan</p>
+            <p>UI Clone Demo · Pakistan (Educational)</p>
         </div>
     </footer>
 </body>
